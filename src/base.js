@@ -31,7 +31,7 @@ const chartEvents = [
 
 export const createComponent = type => ({
   name: `${type}-chart`,
-  template: '<div ref="tuiChart"></div>',
+  render: h => h('div', {ref: 'tuiChart'}),
   props: {
     data: {
       type: Object,
