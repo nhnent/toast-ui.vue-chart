@@ -3,6 +3,7 @@
   "version": "1.1.2",
   "description": "TOAST UI Chart for Vue",
   "main": "dist/toastui-vue-chart.js",
+  "types":"index.d.ts",
   "files": [
     "dist",
     "src"
